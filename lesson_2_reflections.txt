@@ -1,2 +1,6 @@
-What happens when you initialize a repository? Why do you need to do it?
-Git creates a .git file with the necessary files to track changes in your repository.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area collects the files you are working on and then saves the changes to each file as one commit.
+It enables you to make changes to related files and track that relationship.
+The editor is not opening automatically I think this may have something to do with periods in the file path.
+Ok I have changes the name to omit the periods to see if that cures the commit problem.
+Founf the problem - copied the correct file path from course notes to remove back slashes from file name and hey presto!
