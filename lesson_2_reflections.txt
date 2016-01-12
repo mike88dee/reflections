@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates a .git file with the necessary files to track changes in your repository.
