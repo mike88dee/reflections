@@ -1,0 +1,37 @@
+In this module I learned a number of cammands and arguements
+
+for example cd udacity cd is the command and udacity is the argument
+
+I also learned how to compare two file versions
+on the windows command line it is FC oldfile name new file name
+
+on git bash it is diff -u old file name new file name
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can save time looking for typos or errors in long code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+keeps the log file smaller and more relevant
+
+can be prone to human error
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+because editing a programming application can often involve changes in multiple files and this makes tracking related changes easier.
+
+How can you use the commands git log and git diff to view the history of files?
+Use git log to find the relevant commit and copy the id
+then use git diff -u to view the insertions and deletions.
+
+q to quit git log
+
+cut and paste log numbers
+
+How might using version control make you more confident to make changes that could break something?
+you can easily revert to working code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to set up a work file for saving different versions during development of a location app.
+
