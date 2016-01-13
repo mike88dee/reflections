@@ -4,3 +4,7 @@ It enables you to make changes to related files and track that relationship.
 The editor is not opening automatically I think this may have something to do with periods in the file path.
 Ok I have changes the name to omit the periods to see if that cures the commit problem.
 Founf the problem - copied the correct file path from course notes to remove back slashes from file name and hey presto!
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Check which filkes have changed in the working area using git status then move these files to the staging area to make one commit for the change you have made.
