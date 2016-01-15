@@ -15,3 +15,13 @@ when you want to make a related version of the file such as a different language
 
 How do the diagrams help you visualize the branch structure?
 using git command git log --graph --oneline branch_name branch_name you can create a disgram of the relevant commit history and see when the branch was created and how it relates to the other branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The commits are merged by the timestamp. It is represented in a diagram to show the branches and the path back to the initial commit. This visualizes reachability.
+
+git log --graph --oneline 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git can check for conflicts and draw users attention to them when they occur.
