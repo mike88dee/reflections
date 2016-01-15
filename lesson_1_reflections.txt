@@ -1,4 +1,4 @@
-In this module I learned a number of cammands and arguements
+In this module I learned a number of commands and arguments
 
 for example cd udacity cd is the command and udacity is the argument
 
